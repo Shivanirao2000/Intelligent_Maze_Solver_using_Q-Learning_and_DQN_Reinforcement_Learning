@@ -62,6 +62,7 @@ The environment serves as a benchmark for testing different RL agents.
   - 3-step random exploration every 5 episodes to encourage diverse state coverage  
 
 **Training Rewards:**
+
 ![Q-Learning Rewards](plots/milestone1_rewards.png)
 
 **Performance:**
@@ -109,6 +110,7 @@ Historical trajectories accelerate convergence and reduce exploration variance w
   - Epsilon-greedy exploration (0.9 → 0.1)  
 
 **Training Rewards:**
+
 ![DQN Rewards](plots/milestone3_rewards.png)
 
 **Performance:**
