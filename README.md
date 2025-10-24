@@ -1,6 +1,5 @@
 # Intelligent Maze Solver: Q-Learning and Deep Q-Network Agents Using Reinforcement Learning
 
-![Maze Solver](https://img.shields.io/badge/AI-ReinforcementLearning-blue)
 
 This project demonstrates the design and implementation of **intelligent agents** capable of solving NxM maze environments using **Reinforcement Learning (RL)** techniques. The repository explores multiple approaches:
 
@@ -21,8 +20,7 @@ The goal is to compare classic tabular Q-Learning with modern deep RL methods, i
   - [Deep Q-Network (DQN) Agent](#deep-q-network-dqn-agent)  
 - [Evaluation Results](#evaluation-results)  
 - [Analysis & Insights](#analysis--insights)  
-- [Usage](#usage)  
-- [License](#license)  
+- [Usage](#usage)   
 
 ---
 
@@ -64,7 +62,7 @@ The environment serves as a benchmark for testing different RL agents.
   - 3-step random exploration every 5 episodes to encourage diverse state coverage  
 
 **Training Rewards:**
-![Q-Learning Rewards](../plots/milestone1_rewards.png)
+![Q-Learning Rewards](plots/milestone1_rewards.png)
 
 **Performance:**
 - Success Rate: 1.0  
@@ -82,7 +80,7 @@ The environment serves as a benchmark for testing different RL agents.
   - Continues training for additional episodes to refine the policy  
 
 **Training Rewards (Comparison with Q-Learning Agent):**
-![Historical Data Rewards](../plots/milestone2_rewards.png)
+![Historical Data Rewards](plots/milestone2_rewards.png)
 
 **Performance:**
 - Success Rate: 1.0  
@@ -111,7 +109,7 @@ Historical trajectories accelerate convergence and reduce exploration variance w
   - Epsilon-greedy exploration (0.9 → 0.1)  
 
 **Training Rewards:**
-![DQN Rewards](../plots/milestone3_rewards.png)
+![DQN Rewards](plots/milestone3_rewards.png)
 
 **Performance:**
 - Success Rate: 1.0  
