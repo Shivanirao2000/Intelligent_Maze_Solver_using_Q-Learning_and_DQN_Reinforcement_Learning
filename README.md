@@ -18,7 +18,7 @@ The goal is to compare classic tabular Q-Learning with modern deep RL methods, i
   - [Q-Learning Agent](#q-learning-agent)  
   - [Q-Learning with Historical Data](#q-learning-with-historical-data)  
   - [Deep Q-Network (DQN) Agent](#deep-q-network-dqn-agent)  
-- [Evaluation Results](#evaluation-results)  
+- [Evaluation Summary](#evaluation-summary)  
 - [Analysis & Insights](#analysis--insights)  
 - [Usage](#usage)   
 
